@@ -180,7 +180,14 @@
 
 			#endregion
 
-		    Print();
+			Print();
+
+
+
+			//Program program = new Program();
+
+			//program.Print();
+
 
 
 
@@ -188,7 +195,10 @@
 
 			Random random1 = new Random();
 			random1.Next();
-		
+
+			//string rame = Print();
+
+			int jami = Sum(5, 6, 3);
 
 		}
 
@@ -198,6 +208,14 @@
 			Console.WriteLine("dsdgfdgh");
 		}
 
+
+
+		public static int Sum(int num1, int num2, int num3)
+		{
+			Console.WriteLine("gamarjoba");
+			return num1 + num2 + num3;
+		
+		}
 
 
 
