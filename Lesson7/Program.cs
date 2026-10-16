@@ -139,6 +139,46 @@ namespace Lesson7
 			//სტუდენტის კალსი
 
 
+
+
+
+
+			string productname = "dsddd";
+			string productdescription = "dsdsdsds";
+
+			int productPrice = 50;
+
+
+			string produc2tname = "dsddd";
+			string product222description = "dsdsdsds";
+
+			int product2Price = 50;
+
+		
+
+
+			string name = "sds";
+
+
+		
+
+			int x = 5;
+			int y = x;
+
+			//5 5
+
+			y = 10;
+
+			//5 10
+
+
+			int[] arr = [20, 03, 60];
+			int[] arr2 = arr;
+
+			//[20, 03, 60]; [20, 03, 60];
+			//arr2[0] = 500;
+
+			//[500, 03, 60]; [500, 03, 60];
 		}
 
 
