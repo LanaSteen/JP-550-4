@@ -2,6 +2,7 @@
   <Project Path="Lesson1/Lesson1.csproj" />
   <Project Path="Lesson10/Lesson10.csproj" Id="e01472d5-4b19-46b5-ac27-a38d85606a57" />
   <Project Path="Lesson11/Lesson11.csproj" Id="4ea8494c-2a61-43d3-bf65-8d848f28355e" />
+  <Project Path="Lesson12/Lesson12.csproj" Id="7c24eba0-010a-4465-9cb5-9a70b556bca2" />
   <Project Path="Lesson2/Lesson2.csproj" Id="c8c0122e-14be-421e-bbb2-604e78c79dab" />
   <Project Path="Lesson3/Lesson3.csproj" Id="9ca75c45-ad37-4c21-86c9-b2fee09728ef" />
   <Project Path="Lesson4/Lesson4.csproj" Id="ccd885ef-3090-431f-bb4a-356199acd75f" />
