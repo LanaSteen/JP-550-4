@@ -54,11 +54,7 @@
 
 
 			passwords.IsValidAll(x=> x.Length > 8);
-
-
-
-
-
+			
 
 			passwords.IsValidAll(asDelegate);
 			passwords.IsValidAll(emailContains);
