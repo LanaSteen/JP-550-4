@@ -4,7 +4,7 @@
 	{
 		static void Main(string[] args)
 		{
-
+			Console.WriteLine();
 
 			#region hw
 
@@ -163,7 +163,7 @@
 
 
 
-			         
+
 
 			//////// 
 			//Dictionary<string, string> dictionary = new Dictionary<string, string>();
@@ -198,24 +198,45 @@
 			//	ItSupport - 5656565652
 
 
-			Dictionary<string, string> phoneBook = new Dictionary<string, string>();
+			//Dictionary<string, string> phoneBook = new Dictionary<string, string>();
 
-			phoneBook.Add("Manager", "599050545");
-			phoneBook.Add("Sales", "599050545");
-			phoneBook.Add("ItSupport", "5656565652");
-
-
-
-			string key = Console.ReadLine();
-
-			if(!phoneBook.ContainsKey(key))
-			{
-				string value = Console.ReadLine();
-				phoneBook.Add(key, value);
-			}
+			//phoneBook.Add("Manager", "599050545");
+			//phoneBook.Add("Sales", "599050545");
+			//phoneBook.Add("ItSupport", "5656565652");
 
 
+
+			//string key = Console.ReadLine();
+
+			//if(!phoneBook.ContainsKey(key))
+			//{
+			//	string value = Console.ReadLine();
+			//	phoneBook.Add(key, value);
+			//}
+
+
+			//Print();
+
+			//Power(2, 3);  // 8
 		}
+
+
+		//public static void Print()
+		//{
+		//	Print();
+		//}
+
+
+		//2 3
+
+
+		//2
+
+		//public static int Power(int num, int pow)
+		//{
+
+		//}
+
 	}
 }
 
