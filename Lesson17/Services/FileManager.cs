@@ -18,6 +18,9 @@ namespace Lesson17.Services
 			int maxId = users.MaxBy(u => u.Id).Id;
 			user.Id = ++maxId;
 
+
+			
+
 			File.AppendAllLines(path, [user.ToString()]);
 		}
 	
