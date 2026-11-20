@@ -14,5 +14,29 @@ namespace Lesson18.Repositories
 		{
 			File.AppendAllLines(userFilePath, [user.ToString()]);
 		}
+
+
+		public List<User> GetAllUSers()
+		{
+			List<User> users = new List<User>();
+			var lines = File.ReadAllLines(userFilePath);
+			foreach (var item in lines)
+			{
+
+				var parts = item.Split("|");
+				User user = new User();
+				user.Id	= int.Parse(parts[0]);
+				user.Name = parts[1];
+				user.LastName = parts[2];
+				user.Email = parts[3];
+				user.Password = parts[4]; 
+
+				users.Add(user);
+				
+			}
+
+			return users;
+
+		}
 	}
 }

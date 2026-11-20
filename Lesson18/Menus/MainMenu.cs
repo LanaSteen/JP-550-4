@@ -38,7 +38,8 @@ namespace Lesson18.Menus
 						RegUser();
 						break;
 					case "2":
-						// login
+
+						Login();
 						break;
 					default:
 						Console.WriteLine("Invalid value - enter 1, 2 or 0");
@@ -78,6 +79,25 @@ namespace Lesson18.Menus
 		}
 	
 	
+
+		private User Login()
+		{
+			Console.WriteLine("Enter your email");
+			string email = Console.ReadLine();
+			Console.WriteLine("enter your passsword ");
+			string pass = Console.ReadLine();
+
+			var users = _fileManager.GetAllUSers();
+			var user = users.FirstOrDefault(u => u.Email == email);
+
+			if(user.Password == pass)
+			{
+				return user;
+			}
+
+
+			return default;
+		}
 	
 	}
 }
