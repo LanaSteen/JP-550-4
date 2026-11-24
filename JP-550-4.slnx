@@ -1,4 +1,10 @@
 <Solution>
+  <Folder Name="/Project/">
+    <Project Path="School.Application/School.Application.csproj" Id="93c89868-1781-4306-90d0-b091d79eead7" />
+    <Project Path="School.Domain/School.Domain.csproj" Id="617b208f-aeb1-4fc3-9b9f-db2689176f80" />
+    <Project Path="School.Infrastructure/School.Infrastructure.csproj" Id="c700f5e6-aaa4-423b-b25d-742ec51c2dd5" />
+    <Project Path="School.UI/School.UI.csproj" Id="35358216-12ad-42a4-9a97-d26f103572fb" />
+  </Folder>
   <Project Path="Lesson1/Lesson1.csproj" />
   <Project Path="Lesson10/Lesson10.csproj" Id="e01472d5-4b19-46b5-ac27-a38d85606a57" />
   <Project Path="Lesson11/Lesson11.csproj" Id="4ea8494c-2a61-43d3-bf65-8d848f28355e" />
